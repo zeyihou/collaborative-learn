@@ -15,3 +15,8 @@ Recent advances in generative latent space sampling for enhanced generation qual
 ## Training
 
 ## Acknowledgment
+Our project references the codes in the following repos. Thanks for their works and sharing.
+- [REPGAN](https://github.com/yifeiwang77/repgan)
+- [GAN1]
+- [GAN2]
+- [GAN3]
