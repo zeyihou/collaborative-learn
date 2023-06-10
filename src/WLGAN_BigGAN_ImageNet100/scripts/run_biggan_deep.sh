@@ -21,4 +21,4 @@ CUDA_VISIBLE_DEVICES=0,1,2 python main.py \
     --samp_nfake_per_class $SAMP_NFAKE_PER_CLASS --samp_dump_fake_data \
     --eval --eval_FID_batch_size 10 \
     --eval_ckpt_path $EVAL_CKPT_PATH --inception_from_scratch \
-    2>&1 | tee output_${GAN_NET}_DDLS.txt
+    2>&1 | tee output_${GAN_NET}_colla.txt
