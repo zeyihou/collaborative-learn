@@ -23,9 +23,16 @@ Notice: We use the two configurations of "DCGAN & CelebA" and "BigGAN & ImageNet
 
 ## Usage
 ### GAN Sampling with WL-GAN
+
+DCGAN & CelebA :
 ```
 python main.py --dataroot [dataroot] --load-g [generator filename] --load-d [discriminator filename] --calibrate --num-images 50000
 ```
+BigGAN & ImageNet-100
+```
+./scripts/run_biggan_deep.sh
+```
+
 
 ## Acknowledgment
 Our project references the codes in the following repos. Thanks for their works and sharing.
