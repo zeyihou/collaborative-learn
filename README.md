@@ -18,12 +18,7 @@ torchvision
 
 
 ## Data
-CIFAR-10
-
-CelebA
-
-ImageNet-100
-
+We investigate the collaborative learning on three real-world image datasets, including CIFAR-10, CelebA and ImageNet-100 (a 100-class subset of ImageNet), with different GAN models.
 
 ## Training
 
