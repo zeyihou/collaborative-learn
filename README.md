@@ -12,10 +12,10 @@ Recent advances in generative latent space sampling for enhanced generation qual
 
 
 ## Data
-We investigate the collaborative learning on three real-world image datasets, including CIFAR-10, CelebA and ImageNet-100 (a 100-class subset of ImageNet), with different GAN models.
+We investigate the collaborative learning on three real-world image datasets, including ```CIFAR-10```, ```CelebA``` and ```ImageNet-100``` (a 100-class subset of ImageNet), with different GAN models.
 
 ## GAN models
-We train three different GANs (i.e., DCGAN, WGAN, and SNGAN) on CIFAR-10 and CelebA for empirical evaluation. As for ImageNet-100, we only implement BigGAN because the training of other baseline models is unstable.
+We train three different GANs (i.e., ```DCGAN```, ```WGAN```, and ```SNGAN```) on CIFAR-10 and CelebA for empirical evaluation. As for ImageNet-100, we only implement ```BigGAN``` because the training of other baseline models is unstable.
 
 ## Usage
 
