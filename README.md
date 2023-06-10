@@ -33,7 +33,29 @@ python main.py --dataroot [dataroot] --load-g [generator filename] --load-d [dis
 
 Other atchitecture:
 ```
-
+def collaborative_learn(netG, 
+        netD, 
+        calibrator, 
+        device, 
+        nz=100,
+        batch_size=100, 
+        clen=640, 
+        tau=0.1, 
+        eta=0.3162):
+    '''
+    1) network config
+    netG: generator network. Input: latent (B x latent_dim x 1 x 1). Output: images (B x C x H x W)
+    netD: discriminator network. Input: images (B x C x H x W). Output: raw score (B x 1)
+    calibrator: calibrator network for calibrating the discriminator score. Input: raw score (B x 1). Ouput: calibrated score: (B x 1)
+    nz: the dimension of the latent z of the generator
+    2) sampling config
+    batch_size: number of samples per batch
+    clen: length the Markov chain (only the last sample at the end of the chain is left)
+    tau: step size in L2MC
+    eta: scale of  white noise in L2MC. Default: sqrt(tau)
+    3) update rule
+    Collaborative learn: Target distribution learning & Proposal distribution learning
+    '''
 ```
 
 BigGAN & ImageNet-100:
