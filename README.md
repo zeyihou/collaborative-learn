@@ -7,9 +7,6 @@ Recent advances in generative latent space sampling for enhanced generation qual
 
 <img src='hit_frequency.jpg'>
 
-<img src='algorithm.jpg'>
-
-
 ## Requirements
 numpy
 tqdm
@@ -19,6 +16,9 @@ torchvision
 
 ## Data
 We investigate the collaborative learning on three real-world image datasets, including CIFAR-10, CelebA and ImageNet-100 (a 100-class subset of ImageNet), with different GAN models.
+
+## GANs
+We train three different GANs (i.e., DCGAN, WGAN, and SNGAN) on CIFAR-10 and CelebA for empirical evaluation. As for ImageNet-100, we only implement BigGAN because the training of other baseline models is unstable.
 
 ## Training
 
