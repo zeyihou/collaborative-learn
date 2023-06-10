@@ -53,8 +53,8 @@ def collaborative_learn(netG,
     2) sampling config
     batch_size: number of samples per batch
     clen: length the Markov chain (only the last sample at the end of the chain is left)
-    tau: step size in L2MC
-    eta: scale of  white noise in L2MC. Default: sqrt(tau)
+    tau: step size
+    eta: scale of white noise. Default: sqrt(tau)
     3) update rule
     Collaborative learn: Target distribution learning & Proposal distribution learning
     '''
