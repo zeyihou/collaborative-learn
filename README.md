@@ -30,6 +30,6 @@ ImageNet-100
 ## Acknowledgment
 Our project references the codes in the following repos. Thanks for their works and sharing.
 - [REPGAN](https://github.com/yifeiwang77/repgan)
-- [DCGAN](https://github.com/pytorch/examples/blob/master/dcgan/main.py)
 - [MHGAN](https://github.com/uber-research/metropolis-hastings-gans)
-- [GAN3]
+- [DCGAN](https://github.com/pytorch/examples/blob/master/dcgan/main.py)
+- [BigGAN](https://github.com/ajbrock/BigGAN-PyTorch)
