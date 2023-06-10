@@ -19,7 +19,7 @@ We investigate the collaborative learning on three real-world image datasets, in
 ## GAN models
 We train three different GANs (i.e., ```DCGAN```, ```WGAN```, and ```SNGAN```) on CIFAR-10 and CelebA for empirical evaluation. As for ImageNet-100, we only implement ```BigGAN``` because the training of other baseline models is unstable.
 
-Notice: We use the two configurations of ```DCGAN & CIFAR-10''' and ```BigGAN & ImageNet-100``` as examples. Other architectures can also be adapted to fit our algorithm as it is model agnostic.
+Notice: We use the two configurations of "DCGAN & CIFAR-10" and "BigGAN & ImageNet-100" as examples. Other architectures can also be adapted to fit our algorithm as it is model agnostic.
 
 ## Usage
 
