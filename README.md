@@ -32,6 +32,7 @@ python main.py --dataroot [dataroot] --load-g [generator filename] --load-d [dis
 ```
 
 Other atchitecture:
+Customized Sampling: modify the ```collaborative_learn``` function in ```collaborative_learn.py```.
 ```
 def collaborative_learn(netG, 
         netD, 
