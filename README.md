@@ -1,5 +1,5 @@
 # collaborative-learn
-The official implementation of paper "WL-GAN: Learning where to sample in generative latent space"
+This is the official implementation of "WL-GAN: Learning where to sample in generative latent space", which aims at improving the sample quality of pretrained GANs with generative latent space sampling.
 
 The framework is inherited from [REPGAN](https://github.com/yifeiwang77/repgan).
 
