@@ -1,4 +1,4 @@
-# collaborative-learn
+# Collaborative-Learn (WL-GAN)
 This is the official implementation of "WL-GAN: Learning where to sample in generative latent space", which boost the sample quality of trained GANs with collaborative learning in latent space sampling.
 
 The framework is inherited from [REPGAN](https://github.com/yifeiwang77/repgan), thanks for their works and sharing.
@@ -20,7 +20,7 @@ Recent advances in generative latent space sampling for enhanced generation qual
 We investigate the collaborative learning on three real-world image datasets, including ```CIFAR-10```, ```CelebA``` and ```ImageNet-100``` (a 100-class subset of ImageNet), with different GAN models.
 
 ## GAN models
-We train three different GANs (i.e., ```DCGAN```, ```WGAN```, and ```SNGAN```) on CIFAR-10 and CelebA for empirical evaluation. As for ImageNet-100, we only implement ```BigGAN``` because the training of other baseline models is unstable.
+We train three different GANs (i.e., ```DCGAN```, ```WGAN```, and ```SNGAN```) on ```CIFAR-10``` and ```CelebA``` for empirical evaluation. As for ```ImageNet-100```, we only implement ```BigGAN``` because the training of other baseline models is unstable.
 
 Notice: We use the two configurations of "DCGAN & CelebA" and "BigGAN & ImageNet-100" as examples. Other architectures can also be adapted to fit our algorithm as it is model agnostic.
 
