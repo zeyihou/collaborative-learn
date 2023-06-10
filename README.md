@@ -22,6 +22,10 @@ We train three different GANs (i.e., ```DCGAN```, ```WGAN```, and ```SNGAN```) o
 Notice: We use the two configurations of "DCGAN & CelebA" and "BigGAN & ImageNet-100" as examples. Other architectures can also be adapted to fit our algorithm as it is model agnostic.
 
 ## Usage
+### GAN Sampling with WL-GAN
+```
+python main.py --dataroot [dataroot] --load-g [generator filename] --load-d [discriminator filename] --calibrate --num-images 50000
+```
 
 ## Acknowledgment
 Our project references the codes in the following repos. Thanks for their works and sharing.
