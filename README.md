@@ -28,7 +28,13 @@ DCGAN & CelebA :
 ```
 python main.py --dataroot [dataroot] --load-g [generator filename] --load-d [discriminator filename] --calibrate --num-images 50000
 ```
-BigGAN & ImageNet-100
+
+Other atchitecture:
+```
+
+```
+
+BigGAN & ImageNet-100:
 ```
 ./scripts/run_biggan_deep.sh
 ```
