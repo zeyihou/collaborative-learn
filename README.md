@@ -16,7 +16,14 @@ tqdm
 torch
 torchvision
 
+
 ## Data
+CIFAR-10
+
+CelebA
+
+ImageNet-100
+
 
 ## Training
 
