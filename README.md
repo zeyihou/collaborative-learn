@@ -13,6 +13,7 @@ Recent advances in generative latent space sampling for enhanced generation qual
 `torchvision`
 `numpy`
 `tqdm`
+·h5py·
 
 
 ## Data
