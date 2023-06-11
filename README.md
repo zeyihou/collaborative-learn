@@ -32,8 +32,7 @@ DCGAN & CelebA :
 python main.py --dataroot [dataroot] --load-g [generator filename] --load-d [discriminator filename] --calibrate --num-images 50000
 ```
 
-Other atchitecture:
-Customized Sampling: modify the ```collaborative_learn``` function in ```collaborative_learn.py```.
+Customized sampling with other architecture: modify the ```collaborative_learn``` function in ```collaborative_learn.py```， fine-tune hyperparameters of ```target-distribution-learning``` and ```proposal-distribution-learning``` according to the results of access to energy levels in the warm-up phase.
 ```
 def collaborative_learn(netG, 
         netD, 
